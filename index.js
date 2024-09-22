@@ -61,12 +61,3 @@
         
 }
 });
-
-const mostrar = (user) => {
-
-    let div = document.getElementById('mario');
-    let span = document.getElementById("nombre");
-    span.textContent = div.getAttribute("title");
-    div.setAttribute("title", "Presentado");
-
-}
